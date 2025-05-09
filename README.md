@@ -58,9 +58,9 @@ We identified clusters of museums primarily in urban centers like Toronto, Montr
 
 ## 📌 Future Work
 
-- Add interactive map with Folium or Leaflet
-- Try clustering with additional features (type of museum, size)
-- Integrate dashboard with Streamlit
+- Add interactive map with Folium or Leaflet ✅ (done)
+- Try clustering with additional features (type of museum, size) ✅ (done)
+- Integrate dashboard with Streamlit ❌ (not yet)
 
 ## 🚀 Run This Project
 
