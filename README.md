@@ -95,6 +95,14 @@ We identified clusters of museums primarily in urban centers like Toronto, Montr
      ```bash
       jupyter-notebook
      ```
+6. How to get the interactive map plot with **Folium**:
+   
+   - Firstly, you should run the **folium_map.py** file:
+
+      ```bash
+      python3 folium_map.py
+     ```
+   - Then you may use the **HTML** file on your browser to see the result of the Model
 ## ⌛ Contributions
 
 Contributions are welcome! If you’d like to contribute to this project, feel free to fork the repository, create a new branch, and submit a pull request.
