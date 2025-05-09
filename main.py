@@ -95,6 +95,9 @@ coords_scaled = scaler.fit_transform(coords)
 min_samples = None
 
 
+df['Cluster'] = dbscan.fit_predict(coords_scaled_)
+print(df['Cluster'].value_counts())
+
 hdb = hdbscan.HDBSCAN(min_samples = min_samples, min_cluster_size=3,metric = metric)
 
 df['Cluster'] = hdb.fit_predict(coords_scaled_)
