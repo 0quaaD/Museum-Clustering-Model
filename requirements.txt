@@ -6,3 +6,4 @@ hdbscan
 geopandas
 contextily
 shapely
+pytest
